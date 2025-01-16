@@ -1,0 +1,15 @@
+.chat{
+  display: flex;
+}
+
+.buttons li{
+  padding: 0;
+  border: none;
+  margin-right: 1rem;
+}
+
+.inputs textarea{
+  height: 6rem;
+  margin-bottom: 1rem;
+}
+

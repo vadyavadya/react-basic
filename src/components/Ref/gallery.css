@@ -1,0 +1,20 @@
+.gallery{
+  width: 70%;
+  overflow: hidden;
+}
+
+.gallery ul li {
+  border: none;
+  margin-bottom: none;
+  display: inline;
+  padding: 0.5rem;
+}
+.gallery img {
+  padding: 10px;
+  margin: -10px;
+  transition: background 0.2s linear;
+}
+
+.gallery .active {
+  background: rgba(0, 100, 150, 0.4);
+}

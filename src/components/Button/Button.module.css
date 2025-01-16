@@ -1,0 +1,22 @@
+.button {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.active {
+  background-color: #6c6ae3;
+  color: #fff;
+}
+
+.button:disabled{
+  opacity: 0.5;
+  
+}
